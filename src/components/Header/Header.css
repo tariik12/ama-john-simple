@@ -1,0 +1,19 @@
+.header{
+    height: 80px;
+    max-width: 1440px;
+    background-color: #1C2B35;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.header div a {
+    text-decoration: none;
+    color:  #FFFFFF;
+    padding: 5px;
+}
+nav.header a:hover{
+    color: beige;
+}
