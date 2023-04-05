@@ -10,7 +10,7 @@ const Shop = () => {
     const [cart, setCart] = useState([])
 
     useEffect(()=>{
-        fetch('../../../../public/fakeData/products.json')
+        fetch('products.json')
         .then(res =>res.json())
         .then(data => setData(data))
     },[])
@@ -31,7 +31,7 @@ const Shop = () => {
             saveCart.push(addedProduct)
             }
             
-            console.log(addedProduct)
+            // console.log(addedProduct)
             
         }
         //step 5: set the cart
