@@ -1,0 +1,47 @@
+
+.product{
+    width: 300px;
+    height: 510px;
+    border-radius: 8px;
+    position: relative;
+    border: 2px solid ;
+}
+.product img {
+    width: 286px;
+    height: 286;
+    margin:7px;
+    border-radius: 8px;
+}
+
+.product button{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: brown;
+    color: white;
+    
+
+}
+
+
+.name{
+    margin: 5px 10px;
+}
+.name h6{
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+.name p{
+    margin-block-start: 0em;
+    margin-block-end: 2em;
+}
+.seller{
+    margin: 0 10px;
+}
+.seller p{
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
