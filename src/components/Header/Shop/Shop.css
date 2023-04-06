@@ -8,3 +8,16 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 45px;
 }
+
+.btn-proceed{
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+    margin: 10px auto;
+    color: #FFFFFF;
+   background-color: #FF9900;
+    border-radius: 4px;
+    border: none;
+    padding: 16px;
+    width: 100%;
+}
