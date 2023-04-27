@@ -7,7 +7,7 @@ import ReviewItem from '../ReviewItem/ReviewItem';
 
 const Orders = () => {
     const savedCart = useLoaderData();
-    // console.log(savedCart)
+    console.log(savedCart)
     const [cart, setCart] = useState(savedCart)
     // console.log(cart)
     const handleRemoveFromCart = (id) =>{

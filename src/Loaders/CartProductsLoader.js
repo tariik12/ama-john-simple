@@ -7,7 +7,7 @@ const CartProductsLoader = async ()=>{
   
     // if cart data is in database, you have to use async await
     const storedCart = getShoppingCart();
-    // console.log(storedCart)
+    console.log(storedCart)
     const saveCart = []
     for(const id in storedCart){
         const addedProduct = products.find(pd =>pd.id === id );

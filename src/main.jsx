@@ -13,6 +13,7 @@ import Inventory from './components/Inventory/Inventory';
 import Login from './components/Login/Login';
 import CartProductsLoader from './Loaders/CartProductsLoader';
 import CheckOut from './components/CheckOut/CheckOut';
+import SingUp from './components/singUp/SingUp';
 
 const router = createBrowserRouter([
 
@@ -22,7 +23,7 @@ const router = createBrowserRouter([
   children:[
 
     {
-      path:'shop',
+      path:'/',
       element: <Shop />
     },
     {
@@ -39,8 +40,12 @@ const router = createBrowserRouter([
       element: <CheckOut />
     },
     {
-      path: 'login',
+      path: '/login',
       element:<Login />
+    },
+    {
+      path: '/singUp',
+      element:<SingUp />
     }
   ]
 }
